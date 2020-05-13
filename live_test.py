@@ -32,14 +32,14 @@ Y=[]
 def video_output():
     #img=gen(VideoCamera())
     #cap=cv2.VideoCapture('http://192.168.43.1:8080/video')
-    model = model_from_json(open("M:/death_valley/python/face/capst/model_4layer_2_2_pool5.json", "r").read())
+    model = model_from_json(open("model_4layer_2_2_pool5.json", "r").read())
     #load weights
-    model.load_weights('M:/death_valley/python/face/capst/model_4layer_2_2_pool5.h5')
+    model.load_weights('model_4layer_2_2_pool5.h5')
     
 
     result = np.array((1,3))
     once = False
-    face_haar_cascade = cv2.CascadeClassifier('M:/death_valley/python/face/capst/haarcascade_frontalface_default.xml')
+    face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     cap=cv2.VideoCapture(0)
     while True:
         ret,imga=cap.read()
