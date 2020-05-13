@@ -1,6 +1,6 @@
 dash==1.0.0
 plotly==4.7.1
-tensorflow 2.2.0
+tensorflow=2.2.0
 gunicorn==19.9.0
 numpy==1.18.4
 pandas==1.0.3
