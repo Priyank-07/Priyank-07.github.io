@@ -120,7 +120,7 @@ python-docx==0.8.10
 pytz==2018.5
 pywin32-ctypes==0.2.0
 pywinpty==0.5.4
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==17.1.2
 QtAwesome==0.5.7
 qtconsole==4.4.2
